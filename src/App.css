@@ -1,0 +1,118 @@
+.app {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1{
+  font-size: 2rem;
+  font-weight: 450;
+  padding: 8px;
+}
+
+.app_body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.app_container {
+    height: 75%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 3px 6px gray;
+}
+
+.viewer {
+    width: 80%;
+    flex: 0.75;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.viewer img {
+  width: inherit;
+  height: 17rem;
+  border: 1px solid black;
+}
+
+.total_slider_div {
+  display: flex;
+  width: 78%;
+  /* flex-direction: column; */
+  align-items: center;
+  gap: 10px;
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+  padding: 25px 0;
+  width: 100%;
+  height: inherit;
+  overflow-y:scroll ;
+}
+
+ ::-webkit-scrollbar {
+  display: none;
+}
+
+.slider_img_container {
+  width: 6rem;
+  height: 4rem;
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.slider_img_container img{
+  border: 1px solid red;
+  height: inherit;
+}
+
+.button {
+  font-size: 2rem;
+  font-weight: 650;
+  margin: 0px 8px;
+  cursor: pointer;
+  border-bottom: 2px solid black;
+}
+
+@media screen and (max-width : 640px) {
+    .viewer img {
+      height: 10rem;
+    }
+}
+
+
+.for_slideshow {
+  display: flex;
+  align-items: center
+}
+
+#slideshow {
+  margin-right: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 550;
+}
+
+
+
