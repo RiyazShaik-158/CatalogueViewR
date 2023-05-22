@@ -98,6 +98,21 @@
     }
 }
 
+@media screen and (min-width : 300px) and (max-width : 460px) {
+  .app_container{
+    width: 80%;
+  }
+  
+  .viewer {
+    width: 90%;
+  }
+  .viewer img {
+    width: inherit;
+    height: auto;
+  }
+}
+
+
 
 .for_slideshow {
   display: flex;
