@@ -108,7 +108,7 @@
   }
   .viewer img {
     width: inherit;
-    height: auto;
+    height: fit-content;
   }
 }
 
